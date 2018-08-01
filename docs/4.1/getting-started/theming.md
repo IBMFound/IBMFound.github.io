@@ -232,7 +232,7 @@ You can find and customize these variables for key global options in Bootstrap's
 
 | Variable                    | Values                             | Description                                                                            |
 | --------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------- |
-| `$spacer`                   | `1rem` (default), or any value > 0 | Specifies the default spacer value to programmatically generate our [spacer utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/spacing/). |
+| `$spacer`                   | `1rem` (default), or any value > 0 | Specifies the default spacer value to programmatically generate our [spacer utilities]({{ site.baseurl }}/utilities/spacing/). |
 | `$enable-rounded`           | `true` (default) or `false`        | Enables predefined `border-radius` styles on various components. |
 | `$enable-shadows`           | `true` or `false` (default)        | Enables predefined `box-shadow` styles on various components. |
 | `$enable-gradients`         | `true` or `false` (default)        | Enables predefined gradients via `background-image` styles on various components. |
@@ -270,7 +270,7 @@ Here's how you can use these in your Sass:
 .beta { color: color("purple"); }
 {% endhighlight %}
 
-[Color utility classes]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/colors/) are also available for setting `color` and `background-color`.
+[Color utility classes]({{ site.baseurl }}/utilities/colors/) are also available for setting `color` and `background-color`.
 
 {% capture callout %}
 In the future, we'll aim to provide Sass maps and variables for shades of each color as we've done with the grayscale colors below.

@@ -27,7 +27,7 @@ In Internet Explorer 10, SVG images with `.img-fluid` are disproportionately siz
 
 ## Image thumbnails
 
-In addition to our [border-radius utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/borders/), you can use `.img-thumbnail` to give an image a rounded 1px border appearance.
+In addition to our [border-radius utilities]({{ site.baseurl }}/utilities/borders/), you can use `.img-thumbnail` to give an image a rounded 1px border appearance.
 
 <div class="bd-example bd-example-images">
   <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
@@ -39,7 +39,7 @@ In addition to our [border-radius utilities]({{ site.baseurl }}/docs/{{ site.doc
 
 ## Aligning images
 
-Align images with the [helper float classes]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/float) or [text alignment classes]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/text/#text-alignment). `block`-level images can be centered using [the `.mx-auto` margin utility class]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/spacing/#horizontal-centering).
+Align images with the [helper float classes]({{ site.baseurl }}/utilities/float) or [text alignment classes]({{ site.baseurl }}/utilities/text/#text-alignment). `block`-level images can be centered using [the `.mx-auto` margin utility class]({{ site.baseurl }}/utilities/spacing/#horizontal-centering).
 
 <div class="bd-example bd-example-images">
   <img data-src="holder.js/200x200" class="rounded float-left" alt="A generic square placeholder image with rounded corners">
